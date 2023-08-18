@@ -29,15 +29,23 @@
         .font-eb-garamond {
             font-family: 'EB Garamond', serif;
         }
+
+        .paragraph {
+            color: #CFCFCF;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
     </style>
 
     <!-- link font awesome -->
     <script src="https://kit.fontawesome.com/2e285c83b5.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="container mx-auto">
+<body class="">
     <!-- header section -->
-    <header class="pt-12">
+    <header class="pt-12 container mx-auto">
         <nav class="pb-12">
             <div class="flex flex-col lg:flex-row items-center justify-evenly">
                 <div class="flex items-center">
@@ -99,7 +107,7 @@
     </header>
 
     <!-- main section -->
-    <main>
+    <main class="container mx-auto">
         <!-- The Legal Practice Area section -->
         <section class="w-5/6 mx-auto">
             <div class="text-center mt-28">
@@ -471,7 +479,61 @@
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="bg-[#111] pt-28 pb-28">
+        <div class="grid grid-cols-1 lg:grid-cols-4 container mx-auto p-8 lg:p-0">
+            <div>
+                <img class="mb-8" src="./images/logo.png" alt="">
+                <p class="paragraph">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered
+                    alteration in some form, by injected humour.</p>
+            </div>
+            <div>
+                <h4 class="text-[#FFF] font-eb-garamond text-2xl font-extrabold mb-12">Useful Link</h4>
+                <ul class="paragraph space-y-4">
+                    <li>Homes</li>
+                    <li>About Us</li>
+                    <li>Cases</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-[#FFF] font-eb-garamond text-2xl font-extrabold mb-12">Contact Now</h4>
+                <div class="paragraph space-y-4">
+                    <p>555 4th 5t NW, Washington <br>
+                        DC 20530, United States</p>
+                    <p>+88 01750 000 000 <br>
+                        +88 01750 000 000</p>
+                    <p>info@gmail.com <br>
+                        info@gmail.com</p>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-[#FFF] font-eb-garamond text-2xl font-extrabold mb-12">Subscribe</h4>
+                <p class="paragraph">Subscribe for our latest & <br>
+                    Articles. We Won’t Give You <br>
+                    Spam Mails</p>
+                <div class="flex items-center">
+                    <input class="bg-[#FFF] rounded-s-lg h-12 pl-8" type="email" name="" id=""
+                        placeholder="Email Address">
+                    <button class="bg-[#B68C5A] rounded-lg p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                            <g clip-path="url(#clip0_12_37)">
+                                <path
+                                    d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_12_37">
+                                    <rect width="24" height="24" fill="white" transform="translate(0 17) rotate(-45)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
